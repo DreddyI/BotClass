@@ -8,7 +8,6 @@
 
 namespace BotClass;
 
-
 class BotClassException extends \Exception
 {
 

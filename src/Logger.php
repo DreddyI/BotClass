@@ -11,6 +11,7 @@ namespace BotClass;
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
 use Monolog\Handler\FirePHPHandler;
+
 class BotLogger
 {
     public $logger = null;

@@ -10,7 +10,6 @@ namespace BotClass\Tests;
 
 use PHPUnit\Framework\TestCase;
 
-
 abstract class BaseTestCase extends TestCase
 {
 
