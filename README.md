@@ -1,4 +1,4 @@
-## BotClass
+## BotClass [![Build Status](https://api.travis-ci.org/kefzce/BotClass.svg?branch=master)](https://travis-ci.org/kefzce/BotClass) [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php) [![PHP version](https://camo.githubusercontent.com/872e8e7b7893bb2335c27be1f7cac90227dfd255/68747470733a2f2f62616467652e667572792e696f2f67682f626f656e6e656d616e6e2532466261646765732e737667)](https://badge.fury.io/ph/0.1.svg)
 Greetings this is my implementation Bots SDK for [Telegram](https://telegram.org/).
 
 ## Getting Started
