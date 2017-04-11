@@ -5,4 +5,6 @@ php:
 
 before_script:
   - composer install
-script: vendor/bin/phpunit --debug
+script:
+  - vendor/bin/phpunit --debug
+  - vendor/bin/php-cs-fixer fix -v --dry-run

@@ -36,5 +36,4 @@ class Bot
             "markup" => $replyMarkup,
         ]);
     }
-
 }
