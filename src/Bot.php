@@ -13,13 +13,11 @@ use Psr\Log\InvalidArgumentException;
 
 class Bot
 {
-    private $a;
-    protected $token;
-    public $webhook;
+    protected $accesstoken = null;
 
-    public function __construct($token)
+    public function __construct($token = null)
     {
-        $this->token = $token;
+        $this->accesstoken = isset($token) ? $token : getenv("TOKEN");
     }
 
     public function getMe()

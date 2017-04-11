@@ -7,12 +7,19 @@
  */
 require("vendor/autoload.php");
 
+$env = new Dotenv\Dotenv(__DIR__);
+$env->load();
+try{
+    $bot = new BotClass\Bot();
+    $bot->sendMessage(
+        $chat_id = 276712063,
+        $message = "test",
+        $reply = "123",
+        $parse_mode = "html",
+        $preview = true,
+        $markup = NULL
+    );
+}catch(Exception $e){
+    echo $e->getMessage();
+}
 
-$bot = new \BotClass\Bot("123");
-//echo $bot->getMe();
-//$bot->sendMessage("123","123","html","false","disable","null");
-
-$dotenv = new Dotenv\Dotenv(__DIR__);
-$dotenv->load();
-
-var_dump($_ENV);
