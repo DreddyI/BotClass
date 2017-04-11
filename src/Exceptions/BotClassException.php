@@ -10,5 +10,5 @@ namespace BotClass;
 
 class BotClassException extends \Exception
 {
-
+    public $a;
 }

@@ -8,7 +8,6 @@
 
 namespace BotClass;
 
-
 use Psr\Log\InvalidArgumentException;
 
 class Bot
@@ -37,3 +36,4 @@ class Bot
         ]);
     }
 }
+
