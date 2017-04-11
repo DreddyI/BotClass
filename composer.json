@@ -28,8 +28,5 @@
     "psr-4": {
       "BotClass\\Tests\\": "tests/"
     }
-  },
-  "scripts": {
-    "test": "php-cs-fixer fix -v --dry-run --ansi && phpunit --colors=always"
   }
 }
