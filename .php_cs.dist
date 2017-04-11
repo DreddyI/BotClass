@@ -1,6 +1,7 @@
 <?php
 $header = <<<EOF
-hm hm
+Please view the LICENSE
+file that was distributed with this source code.
 EOF;
 $finder = PhpCsFixer\Finder::create()
     ->files()
@@ -16,7 +17,7 @@ return PhpCsFixer\Config::create()
         'binary_operator_spaces' => true,
         'cast_spaces' => true,
         'concat_space' => true,
-        'declare_strict_types' => true,
+        'declare_strict_types' => false,
         'header_comment' => array('header' => $header),
         'include' => true,
         'is_null' => true,
@@ -24,14 +25,14 @@ return PhpCsFixer\Config::create()
         'mb_str_functions' => true,
         'method_separation' => true,
         'native_function_casing' => true,
-        'no_blank_lines_after_class_opening' => true,
-        'no_blank_lines_after_phpdoc' => true,
+        'no_blank_lines_after_class_opening' => false,
+        'no_blank_lines_after_phpdoc' => false,
         'no_empty_statement' => true,
-        'no_extra_consecutive_blank_lines' => true,
+        'no_extra_consecutive_blank_lines' => false,
         'no_leading_import_slash' => true,
         'no_leading_namespace_whitespace' => true,
         'no_trailing_comma_in_singleline_array' => true,
-        'no_unused_imports' => true,
+        'no_unused_imports' => false,
         'no_whitespace_in_blank_line' => true,
         'object_operator_without_whitespace' => true,
         'ordered_imports' => true,
@@ -45,7 +46,7 @@ return PhpCsFixer\Config::create()
         'phpdoc_types' => true,
         'psr0' => true,
         'short_scalar_cast' => true,
-        'single_blank_line_before_namespace' => true,
+        'single_blank_line_before_namespace' => false,
         'standardize_not_equals' => true,
         'strict_comparison' => true,
         'ternary_operator_spaces' => true,
