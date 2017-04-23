@@ -24,9 +24,16 @@ class Api
     /**
      * @return User
      */
-    public function getMe(){
-         $response = $this->post('getMe');
+    public function getMe()
+    {
+        $response = $this->post('getMe');
         return new User($response);
+    }
+    
+    public function getUpdate()
+    {
+        $response = $this->post('getUpdates');
+        return new Update($response);
     }
 
     /**

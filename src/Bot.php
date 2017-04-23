@@ -26,7 +26,13 @@ class Bot
      * @return User
      * by default return only a username;
      */
-    public function getMe(){
+    public function getMe()
+    {
         return (new Api())->getMe();
+    }
+
+    public function getUpdate()
+    {
+        return (new Api())->getUpdate();
     }
 }
