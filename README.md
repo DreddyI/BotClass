@@ -3,7 +3,7 @@ Greetings this is my implementation Bots SDK for [Telegram](https://telegram.org
 ### Usage
 
 Add bot token from [@botFather](telegram.me/botfather) into .env file
-##Example
+## Example
 ```
 TOKEN=12345678:AAH7zkGoh-ASDBSA-r05Z_2lS-72FDqs
 ```
